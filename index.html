@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Csomag térkitöltő anyagok</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Csomag térkitöltő anyagok</h1>
+  </header>
+
+  <main class="site-main">
+    <section class="intro-block">
+      <p>
+        A csomagolás során a térkitöltő anyag kiválasztása nemcsak a termék biztonsága,
+        hanem a költséghatékonyság és a fenntarthatóság szempontjából is kulcsfontosságú.
+      </p>
+    </section>
+
+    <section class="filter-block" aria-labelledby="kategoriak-cime">
+      <h2 class="section-heading" id="kategoriak-cime">Térkitöltő anyagok csoportosítása</h2>
+      <div class="category-tags" role="tablist" aria-label="Térkitöltő kategóriák">
+        <button type="button" class="category-tag active" data-target="all" aria-selected="true">Összes kategória</button>
+        <button type="button" class="category-tag" data-target="muanyag" aria-selected="false">Műanyag alapú térkitöltők</button>
+        <button type="button" class="category-tag" data-target="papir" aria-selected="false">Papír alapú térkitöltők</button>
+        <button type="button" class="category-tag" data-target="fenntarthato" aria-selected="false">Fenntartható és bio megoldások</button>
+      </div>
+    </section>
+
+    <section class="category-block" data-category="muanyag">
+      <h2 class="section-heading">Műanyag alapú térkitöltők</h2>
+      <p class="section-lead">Bár a környezetvédelmi szempontok miatt visszaszorulóban vannak, hatékonyságuk és könnyű súlyuk miatt még mindig népszerűek.</p>
+      <div class="cards-grid">
+        <article class="material-card">
+          <img src="images/buborek_folia.jpg" alt="Légpárnás fólia tekercs">
+          <h3>Légpárnás fólia (Buborékfólia)</h3>
+          <p>Kiváló ütéselnyelő, tekercsben kapható, így bármilyen méretre vágható.</p>
+        </article>
+        <article class="material-card">
+          <img src="images/legparnas_foliaparnak.png" alt="Légpárnás fóliapárnák">
+          <h3>Légpárnás fóliapárnák</h3>
+          <p>Géppel fújt, levegővel telt zacskók. Nagyon könnyűek, így nem növelik a szállítási költséget.</p>
+        </article>
+        <article class="material-card">
+          <img src="images/epe_habfolia.jpg" alt="EPE habfólia minta">
+          <h3>EPE habfólia</h3>
+          <p>Puha, karcmentes védelmet nyújt, ideális elektronikai eszközökhöz vagy bútorokhoz.</p>
+        </article>
+        <article class="material-card">
+          <img src="images/polistirol_habcsipsz.jpg" alt="Polisztirol habcsipsz térkitöltő">
+          <h3>Polisztirol „kukac” (Habcsipsz)</h3>
+          <p>Hagyományos megoldás, ami kitölti az üres tereket, de hajlamos az elmozdulásra a dobozon belül.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="category-block" data-category="papir">
+      <h2 class="section-heading">Papír alapú térkitöltők</h2>
+      <p class="section-lead">A legnépszerűbb környezetbarát alternatívák, mivel könnyen újrahasznosíthatóak és professzionális megjelenést kölcsönöznek.</p>
+      <div class="cards-grid">
+        <article class="material-card">
+          <img src="images/kraft_papir.jpg" alt="Gyűrt kraft papír térkitöltéshez">
+          <h3>Térkitöltő papír (Kraft papír)</h3>
+          <p>Gyűrt állapotban kiváló ütéscsillapító. Léteznek hozzá adagoló gépek is, de kézzel is formázható.</p>
+        </article>
+        <article class="material-card">
+          <img src="images/selyempapir.jpg" alt="Selyempapír csomagoláshoz">
+          <h3>Selyempapír</h3>
+          <p>Elsősorban esztétikai célokra és karcolás elleni védelemre (pl. cipők, ruhák, ékszerek) használják.</p>
+        </article>
+        <article class="material-card">
+          <img src="images/papirgyapot.png" alt="Papírgyapot csíkok">
+          <h3>Papírgyapot (Füzetelt papír)</h3>
+          <p>Cikkcakk alakúra vágott papírcsíkok. Gyakran használják ajándékkosarakhoz és prémium termékekhez.</p>
+        </article>
+        <article class="material-card">
+          <img src="images/hullamkarton.jpg" alt="Hullámkarton elválasztó">
+          <h3>Hullámkarton lemez/rács</h3>
+          <p>Erős tartást ad, gyakran használják törékeny üvegek elválasztására.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="category-block" data-category="fenntarthato">
+      <h2 class="section-heading">Fenntartható és bio megoldások</h2>
+      <p class="section-lead">A modern logisztika irányvonala, ahol az anyagok természetes úton lebomlanak vagy komposztálhatóak.</p>
+      <div class="cards-grid">
+        <article class="material-card">
+          <img src="images/bio_terkitolto_kukac.jpg" alt="Bio térkitöltő kukac">
+          <h3>Bio térkitöltő kukac</h3>
+          <p>Keményítő alapú (általában kukorica), vízben maradéktalanul feloldódik és komposztálható.</p>
+        </article>
+        <article class="material-card">
+          <img src="images/fagyapot.jpg" alt="Fagyapot díszcsomagolásban">
+          <h3>Fagyapot</h3>
+          <p>Természetes faforgács, ami rusztikus megjelenést ad. Kiváló borosüvegekhez vagy biotermékekhez.</p>
+        </article>
+        <article class="material-card">
+          <img src="images/mehsejt_szerkezetu_papir.png" alt="Méhsejt szerkezetű papír">
+          <h3>Méhsejt szerkezetű papír</h3>
+          <p>Kihúzva 3D-s rácsot alkot, ami helyettesítheti a buborékfóliát.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="calculator-block" aria-labelledby="szamolas-cime">
+      <h2 class="section-heading" id="szamolas-cime">Maxiumum mennyi térkitöltőre lenne szükségem?</h2>
+      <form id="fillCalculator" novalidate>
+        <div class="input-row">
+          <label for="length">Hosszúság (cm):</label>
+          <input id="length" name="length" type="number" min="1" step="1" inputmode="numeric" required>
+        </div>
+        <div class="input-row">
+          <label for="width">Szélesség (cm):</label>
+          <input id="width" name="width" type="number" min="1" step="1" inputmode="numeric" required>
+        </div>
+        <div class="input-row">
+          <label for="height">Magasság (cm):</label>
+          <input id="height" name="height" type="number" min="1" step="1" inputmode="numeric" required>
+        </div>
+        <p id="formError" class="error-text" role="alert" aria-live="polite"></p>
+        <button type="submit" class="action-btn">Számolás</button>
+      </form>
+    </section>
+  </main>
+
+  <div id="resultOverlay" class="result-overlay" aria-hidden="true">
+    <section class="result-dialog" role="dialog" aria-modal="true" aria-labelledby="dialogTitle">
+      <button type="button" class="close-btn" id="closeDialog" aria-label="Bezárás">Bezárás</button>
+      <h3 id="dialogTitle">Számítás eredménye</h3>
+      <p id="resultText"></p>
+    </section>
+  </div>
+
+  <footer class="site-footer">
+    <p>Készítette: Gyulai Gergő</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
